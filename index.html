@@ -103,7 +103,7 @@
 <body>
     <div>
         <!-- xxxx.mp3为show文件夹下的音频文件，自行定义 -->
-        <audio preload autoplay loop id="music_tag" src="show/xxxx.mp3"></audio>
+        <audio preload autoplay loop id="music_tag" src="show/music.mp3"></audio>
         <img id="music_play" onclick="musicStop()" class="imageRotate rotate" src="show/musicon.png" alt="">
         <img id="music_stop" onclick="musicPlay()" class="imageRotate" src="show/musicoff.png" alt=""
             style="display: none">
@@ -165,145 +165,30 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="swiper-slide" id="page2">
-            <div class="imgbox">
-                <img class="qzin" src="show/mobile_02.jpg" alt="">
-                <div class="circle" style="width: 150px; height: 150px; top: 20px; left: 5px;"></div>
-                <div class="circle fast" style="width: 100px; height: 100px; top: 120px; right: 5px;"></div>
-                <div class="circle fast" style="width: 120px; height: 120px; top: 320px; left: 15px;"></div>
-                <div class="txtwarper ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="5s">
-                    <img src="show/remark_03.png" style="height: 150px;width:150px;display: inline-block;" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide" id="page3">
-            <div class="imgbox">
-                <img class="xzAni" src="show/mobile_03.jpg" alt="">
-                <div class="circle" style="width: 150px; height: 150px; top: 50px; left: 5px;"></div>
-                <div class="circle fast" style="width: 100px; height: 100px; top: 120px; right: 5px;"></div>
-                <div class="txtwarper ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay=".5s">
-                    <img src="show/remark_02.png" style="height: 150px;width:150px;display: inline-block;" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide" id="page4">
-            <div class="imgbox">
-                <img class="xzAni" src="show/mobile_04.jpg" alt="">
-                <div class="circle fast" style="width: 100px; height: 100px; top: 120px; right: 5px;"></div>
-                <div class="circle" style="width: 100px; height: 100px; top: 120px; left: 5px;"></div>
-                <div class="circle fast" style="width: 120px; height: 120px; top: 320px; left: 15px;"></div>
-                <div class="circle" style="width: 150px; height: 150px; bottom: 20px; left: 5px;"></div>
-                <div class="txtwarper ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay=".5s">
-                    <img src="show/remark_04.png" style="height: 150px;width:150px;display: inline-block;" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide" id="page5">
-            <div class="imgbox">
-                <img class="xzAni" src="show/mobile_05.jpg" alt="">
-                <div class="circle fast" style="width: 100px; height: 100px; top: 120px; right: 5px;"></div>
-                <div class="circle" style="width: 100px; height: 100px; top: 120px; left: 5px;"></div>
-                <div class="circle fast" style="width: 120px; height: 120px; top: 320px; left: 15px;"></div>
-                <div class="circle" style="width: 150px; height: 150px; bottom: 20px; left: 5px;"></div>
-                <div class="txtwarper ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay=".5s">
-                    <img src="show/remark_05.png" style="height: 150px;width:150px;display: inline-block;" alt="">
-                </div>
-            </div>
-        </div>
-
-        <div class="swiper-slide" id="page6">
-            <div class="imgbox">
-                <img class="xzAni" src="show/mobile_06.jpg" alt="">
-                <div class="circle" style="width: 150px; height: 150px; top: 20px; left: 5px;"></div>
-                <div class="circle fast" style="width: 100px; height: 100px; top: 120px; right: 5px;"></div>
-                <div class="circle" style="width: 100px; height: 100px; top: 120px; left: 5px;"></div>
-                <div class="circle fast" style="width: 100px; height: 100px; top: 220px; right: 35px;"></div>
-                <div class="circle fast" style="width: 120px; height: 120px; top: 320px; left: 15px;"></div>
-                <div class="circle" style="width: 150px; height: 150px; bottom: 20px; left: 5px;"></div>
-                <div class="txtwarper ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay=".5s">
-                    <img src="show/remark_06.png" style="height: 150px;width:150px;display: inline-block;" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide" id="page7">
-            <div class="imgbox">
-                <img class="xzAni" src="show/mobile_07.jpg" alt="">
-                <div class="circle" style="width: 150px; height: 150px; top: 50px; left: 5px;"></div>
-                <div class="circle fast" style="width: 100px; height: 100px; top: 120px; right: 5px;"></div>
-                <div class="txtwarper ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay=".5s">
-                    <img src="show/remark_04.png" style="height: 150px;width:150px;display: inline-block;" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide" id="page8">
-            <div class="imgbox">
-                <img class="qzin" src="show/mobile_08.jpg" alt="">
-                <div class="circle" style="width: 150px; height: 150px; top: 20px; left: 5px;"></div>
-                <div class="circle fast" style="width: 100px; height: 100px; top: 120px; right: 5px;"></div>
-                <div class="circle fast" style="width: 120px; height: 120px; top: 320px; left: 15px;"></div>
-                <div class="txtwarper ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="5s">
-                    <img src="show/remark_05.png" style="height: 150px;width:150px;display: inline-block;" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide" id="page9">
-            <div class="imgbox">
-                <img class="xzAni" src="show/mobile_09.jpg" alt="">
-                <div class="circle fast" style="width: 100px; height: 100px; top: 120px; right: 5px;"></div>
-                <div class="circle" style="width: 100px; height: 100px; top: 120px; left: 5px;"></div>
-                <div class="circle fast" style="width: 120px; height: 120px; top: 320px; left: 15px;"></div>
-                <div class="circle" style="width: 150px; height: 150px; bottom: 20px; left: 5px;"></div>
-                <div class="txtwarper ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay=".5s">
-                    <img src="show/remark_01.png" alt="">
-                </div>
-            </div>
-        </div> -->
-
-            <div class="swiper-slide" id="back_cover">
+            <div class="swiper-slide" id="page2">
                 <div class="imgbox">
-                    <img src="show/mobile_end.jpg" alt="">
-                    <div class="mibile_end">
-                        <form onsubmit="return false" action="#" method="post" id="friendForm">
-                            <input type="hidden" name="is_ajax" value="1">
-                            <div class="field">
-                                <div class="control">
-                                    <input class="input" type="text" placeholder="您的姓名" name="name">
-                                </div>
-                            </div>
-
-                            <div class="field">
-                                <div class="control">
-                                    <input class="input" type="text" placeholder="您的联系电话" name="phone">
-                                </div>
-                            </div>
-
-                            <div class="field">
-                                <div class="control">
-                                    <div class="select">
-                                        <select>
-                                            <option selected value="1">不携带家属出席</option>
-                                            <option value="2">1位家属</option>
-                                            <option value="2">2位家属</option>
-                                            <option value="2">3位家属</option>
-                                            <option value="4">4位家属</option>
-                                            <option value="4">5位家属</option>
-                                            <option value="4">6位家属</option>
-                                            <option value="4">7位家属</option>
-                                            <option value="4">8位家属</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="field is-grouped is-flex-mobile">
-                                <div class="control">
-                                    <button class="btn" onclick="people()" id="submit_people">我会来</button>
-                                    <!-- 微信内导航需要微信js -->
-                                    <!-- <button class="btn" type="button" onclick="openNavigation()" value="submit">婚礼地址</button> -->
-                                </div>
-                            </div>
-                        </form>
+                    <img class="qzin" src="show/mobile_02.jpg" alt="">
+                    <div class="circle" style="width: 150px; height: 150px; top: 20px; left: 5px;"></div>
+                    <div class="circle fast" style="width: 100px; height: 100px; top: 120px; right: 5px;"></div>
+                    <div class="circle fast" style="width: 120px; height: 120px; top: 320px; left: 15px;"></div>
+                    <div class="txtwarper ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s"
+                        swiper-animate-delay="5s">
+                        <img src="show/remark_03.png" style="height: 150px;width:150px;display: inline-block;" alt="">
                     </div>
+                </div>
+            </div>
+            <div class="swiper-slide" id="page3">
+                <div class="imgbox">
+                    <img class="xzAni" src="show/mobile_03.jpg" alt="">
+                    <div class="circle" style="width: 150px; height: 150px; top: 50px; left: 5px;"></div>
+                    <div class="circle fast" style="width: 100px; height: 100px; top: 120px; right: 5px;"></div>
+                    <div class="txtwarper ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s"
+                        swiper-animate-delay=".5s">
+                        <img src="show/remark_02.png" style="height: 150px;width:150px;display: inline-block;" alt="">
+                    </div>
+                </div>
+                <div class="bottom-cotainer">
+
                 </div>
             </div>
 
@@ -336,12 +221,13 @@
             onInit: function (swiper) {
                 swiperAnimateCache(swiper);
                 swiperAnimate(swiper);
+                console.log('init', swiper)
             },
             onSlideChangeEnd: function (swiper) {
                 swiperAnimate(swiper);
             },
             onTransitionEnd: function (swiper) {
-                swiperAnimate(swiper);
+                swiperAnimate(swiper)
             },
 
             watchSlidesProgress: true,
@@ -406,6 +292,8 @@
             }
         }
 
+
+
         $(document).ready(function () {
 
 
@@ -416,7 +304,9 @@
                     musicPlay.play();
                 })
                     .catch(error => {
-
+                        // musicStop()
+                        $('#music_tag').trigger('click')
+                        // musicPlay.click()
                     });
             }
         });

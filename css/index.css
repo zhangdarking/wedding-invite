@@ -172,7 +172,7 @@ img {
   left: 0;
   bottom: 0;
   height: 50vh;
-  height: calc(100vh - 90vw);
+  height: calc(100vh - 100vw);
   width: 100%;
   background-image: url(../images/cover_bg_bottom.png);
   background-repeat: no-repeat;
@@ -241,6 +241,11 @@ img {
 
 .qzin {
   animation: qzin 8s ease 1 both;
+}
+.sword-text {
+  text-align: left;
+  padding: 20px;
+  visibility: hidden;
 }
 
 /*旋转放大*/
